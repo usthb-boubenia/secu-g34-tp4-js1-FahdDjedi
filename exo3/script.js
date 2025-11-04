@@ -11,9 +11,9 @@ function A () {
     Students.forEach(student =>{
         let delib = B(student.mat);
         if (delib){
-            console.log(`${student.mat} : ADMIS`);
+            console.log(`${student.mat}: ADMIS`);
         }else{
-            console.log(`${student.mat} : AJOURNE`);
+            console.log(`${student.mat}: AJOURNE`);
         }
     });
     
