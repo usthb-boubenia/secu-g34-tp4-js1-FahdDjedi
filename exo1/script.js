@@ -8,26 +8,33 @@ const note = 15;
 const pi = 3.14;
 
 // f1..f6: chaque fonction affiche une valeur dans la console
+
+//affichage du nom
 function f1() {
   console.log(lastName);
 }
 
+//affichage du prenom
 function f2() {
   console.log(firstName);
 }
 
+//affichage du nom et du prenom
 function f3() {
   console.log(`${lastName}-${firstName}`);
 }
 
+//affichage de l'age
 function f4() {
   console.log(age);
 }
 
+//affichage de la note
 function f5() {
   console.log(note);
 }
 
+//affichage de pi
 function f6() {
   console.log(pi);
 }
